@@ -385,3 +385,16 @@ body {
     font-size: 0.75rem;
   }
 }
+
+@media (min-width: 200px) and (max-width: 400px) {
+  .search-bar > input::placeholder {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .search-bar > input::placeholder {
+    font-size: 0.6rem;
+  }
+}
+
