@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <div class="section-1">
+      <div class="header-section">
+        <a href=""><h1>ZENITH</h1></a>
+        <div class="search-bar">
+          <select name="select" id="allSelect">
+            <option value="All">All</option>
+            <option value="All Categories">All Categories</option>
+            <option value="Cosmetics">Beauty & Cosmetics</option>
+            <option value="Fragrances">Premium Fragrances</option>
+            <option value="Skin Care">Skin Care Essentials</option>
+            <option value="Decor">Home & Decor</option>
+            <option value="Groceries">Fresh Groceries</option>
+            <option value="Gadgets">Modern Gadgets</option>
+            <option value="Apparel">Luxe Apparel</option>
+            <option value="Lifestyle">Premium Lifestyle</option>
+            <option value=" Trendi">Top Trendi</option>
+          </select>
+
+          <input type="text" placeholder="Search Products brands, collection" />
+
+          <div class="search">
+            <a href=""><img src="asset/icon/search (1).png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="return-section">
+          <p>Returns</p>
+          <h3>& Orders</h3>
+        </div>
+
+        <div class="sign-in-section">
+          <p>Hello Sign in</p>
+          <h3>Account & Lists</h3>
+        </div>
+
+        <div class="cart">
+          <img src="asset/icon/shopping-cart.png" alt="" />
+          <sub>cart</sub>
+        </div>
+
+        <div class="menuBar">
+          <img
+            onclick="openSideBar()"
+            src="asset/icon/menuBar.png"
+            alt=""
+            width="26px"
+            height="26px"
+          />
+        </div>
+
+        <div class="mobile-links">
+          <img
+            onclick="hideSideBar()"
+            src="asset/icon/close.png"
+            alt=""
+            width="20px"
+            height="20px"
+          />
+          <p><a href="">Home</a></p>
+          <p><a href="">about</a></p>
+          <p><a href="">Electronics</a></p>
+          <p><a href="">Home & Decor</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
